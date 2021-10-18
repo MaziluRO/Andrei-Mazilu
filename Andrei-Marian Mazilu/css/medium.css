@@ -1,0 +1,30 @@
+.header-container {
+	flex-direction: column-reverse;
+	left: unset;
+	transform: translateX(0);
+}
+
+header .header-container .header-profile-pic img {
+	width: 35%;
+	margin: 0 auto;
+}
+
+header .header-container .header-content {
+	transform-origin: unset;
+	transform: scaleX(120%);
+}
+
+#about-me-section .about-me-container {
+	flex-direction: column;
+	align-items: center;
+}
+
+#about-me-section .about-me-container .about-me-pic {
+	width: 50%;
+}
+
+footer p.content-p {
+	text-align: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
