@@ -1,0 +1,36 @@
+.header-container {
+	top: 0;
+}
+
+#work-section .work-gallery {
+	grid-template-columns: 1fr;
+}
+
+#work-section .work-gallery .work-item#work-item-3 {
+	grid-row: 5;
+	grid-column: unset;
+}
+
+header .header-container .header-profile-pic img {
+	width: 60%;
+}
+
+header .header-container .header-profile-pic img {
+	width: max(45%, 245px);
+}
+
+header .header-container .header-profile-pic::before {
+	width: max(60vw, 300px);
+	height: 342px;
+	top: 40%;
+	right: 47%;
+}
+
+header .header-container .header-content {
+	transform: unset;
+}
+
+footer p.content-p {
+	padding-left: unset;
+	padding-right: unset;
+}
